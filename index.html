@@ -61,6 +61,34 @@
             display: table;
             clear: both;
         }
+        
+    .flex-container {
+        padding-top: 50px;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: row;
+        background-color:gray;
+        justify-content: center;
+        column-gap: 300px;
+    }
+
+    .flex-container div {
+        background-color: gray;
+        margin: 10px;
+        font-size: 30px;
+        border: 1px solid black;
+        width: 200px;
+        height: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .icon:hover {
+        background-color: aliceblue;
+    }
     </style>
 </head>
 
@@ -232,6 +260,20 @@
                     nuncligule nulla,incident,suscript feuglat turpls.</p>
             </div>
         </div>
+    </div>
+    <div id="portfolio">
+        <div class="flex-container">
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+        </div>
+        <div class="flex-container">
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+            <div class="icon"><img src="plus.png" height="30px" width="20px" alt="plus"><h6>product design design/marketing</h6></div>
+        </div>
+        <button type="button" style="border-radius:8px;background-color: yellow;height: 30px;width: 150px;margin-left: 620px;">LOAD MORE</button>
+    
     </div>
 </body>
 
