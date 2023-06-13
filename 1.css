@@ -364,7 +364,7 @@ li a:hover:not(.active) {
   .bar {
     width: 100px;
     height: 4px;
-    background-color: goldenrod;
+    background-color:whitesmoke;
     margin: 0 auto;
   }
   
@@ -531,7 +531,7 @@ li a:hover:not(.active) {
   .bar {
     width: 100px;
     height: 4px;
-    background-color: goldenrod;
+    background-color: whitesmoke;
     margin: 0 auto;
   }
   
